@@ -1,0 +1,8 @@
+f=open("abc.txt","r")
+s=f.read()
+a=s.split()
+b=" ".join(a)
+f.close()
+f=open("abc.txt","w")
+f.write(b)
+f.close()
